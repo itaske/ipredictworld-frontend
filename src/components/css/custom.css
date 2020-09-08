@@ -1,0 +1,335 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-Jun-2019, 14:18:50
+    Author     : MOTUNRAYO
+*/
+
+a:hover{
+    text-decoration: none;
+}
+.bg-red{
+    background-color:#ab3935!important;
+}
+a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{
+    background-color:#ccc13c!important
+}
+.bg-lm-green{
+    background-color: #6cc06d !important;
+}
+.bg-purple{
+    background-color: #342b4b !important;
+}
+.bg-grey{
+    background-color: #4b4b4d !important;
+}
+.text-white{
+    color:#d2d3d5;
+}
+.text-purple{
+    color:#342b4b;
+}
+.text-red{
+    color:#ab3935;
+}
+.text-grey{
+    color:#4b4b4d;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.btn-purple {
+    color: #ccc13c;
+    background-color: #342b4b;
+    border-color: #342b4b;
+}
+.btn-purple:hover {
+    color: #ccc13c;
+    background-color: #342b45;
+    border-color: #342b45;
+}
+
+.btn-puple:focus, .btn-purple.focus {
+    box-shadow: 0 0 0 0.2rem rgba(53, 43, 70, 0.5);
+}
+
+.btn-purple.disabled, .btn-purple:disabled {
+    color: #ccc13c;
+    background-color: #332b40;
+    border-color: #332b40;
+}
+
+.btn-purple:not(:disabled):not(.disabled):active, .btn-purple:not(:disabled):not(.disabled).active,
+.show > .btn-purple.dropdown-toggle {
+    color: #ccc13c;
+    background-color: #322a4b;
+    border-color: #302844;
+}
+
+.btn-purple:not(:disabled):not(.disabled):active:focus, .btn-purple:not(:disabled):not(.disabled).active:focus,
+.show > .btn-purple.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(53, 43, 75, 0.5);
+}
+
+.btn-red {
+    color: #dad9dd;
+    background-color:#ab3935;
+    border-color: #ab3935;
+}
+.btn-red:hover {
+    color: #dad9dd;
+    background-color: #af3935;
+    border-color: #af3935;
+    text-decoration: none;
+}
+
+.btn-red:focus, .btn-red.focus {
+    box-shadow: 0 0 0 0.2rem rgba(180, 58, 45, 0.5);
+}
+
+.btn-red.disabled, .btn-red:disabled {
+    color: #d2d3d5;
+    background-color: #ab3935;
+    border-color: #ab3935;
+}
+
+.btn-red:not(:disabled):not(.disabled):active, .btn-red:not(:disabled):not(.disabled).active,
+.show > .btn-purple.dropdown-toggle {
+    color: #d2d3d5;
+    background-color: #ab3935;
+    border-color: #ab3935
+}
+
+.btn-red:not(:disabled):not(.disabled):active:focus, .btn-red:not(:disabled):not(.disabled).active:focus,
+.show > .btn-red.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 57, 53, 0.5);
+}
+.btn-stake{
+    width:80px;
+   margin: 0px;
+}
+.font-10-bold{
+    font-size: 13px;
+    font-weight: bold;
+}
+.logo-img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    min-width:150px;
+    height: 150px
+}
+.logo-img1{
+    width:150px;
+    height:80px;
+
+}
+.logo-img-small{
+    margin-top: 20px;
+    width:100px;
+    height:100px;
+}
+
+.margin-top-3{
+    margin-top: 30px;
+   }
+   
+  .margin-top-4{
+    margin-top: 40px;
+   } 
+.margin-top-5{
+    margin-top: 50px;
+   }
+
+.margin-left-15{
+  margin-left: 150px;  
+}
+.margin-right-15{
+  margin-left: 150px;  
+}
+
+.margin-bottom-5{
+    margin-bottom: 50px;
+}
+
+.margin-bottom-2{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-1{
+    margin-bottom: 10px;
+}
+.fa-question-circle{
+    color: #342b4b  ;
+    background-color: #ccc13c;
+    border-color: #342b4b;
+    border-radius:2em;
+    border-style: double;
+}
+
+.fa-check-square{
+    color:#6cc06d;
+    background-color: #d2d3d5;
+}
+input[type=checkbox]{alignment-adjust: 10px;
+border: 2px solid #ab3935;}
+
+.border-radius{
+    border-radius: 25px;
+}
+.border-radius-5{
+    border-radius: 5px;
+}
+.bordered-div{
+    background-color: #eee;
+    color: #222;
+    border-radius:5px;   
+        
+}
+.padding-right-1{
+    padding-right: 10px;
+}
+.padding-right-3{
+    padding-right: 30px;
+}
+.padding-left-1{
+    padding-left: 10px;
+}
+.padding-left-2{
+    padding-left: 20px;
+}
+.padding-left-3{
+    padding-left: 30px;
+}
+.padding-left-6{
+    padding-left: 60px;
+}
+.padding-left-7{
+    padding-left: 70px;
+}
+.padding-left-8{
+    padding-left: 80px;
+}
+.padding-left-15{
+    padding-left: 300px;
+}
+.padding-top-3{
+    padding-top: 30px;
+}
+.padding-top-5{
+    padding-top: 50px;
+}
+.padding-top-6{
+    padding-top: 60px;
+}
+
+.hr{
+    width: 100%;
+    height:1px;
+    line-height: 0;
+    background-color: #4e555b;
+    border: 1px solid #4e555b;
+}
+.table-center{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+
+.table .thead-purple th {
+  color: #ccc13c;
+  background-color: #342b4b;
+  border-color: #fff;
+}
+.table-bordered-2 {
+  border: 2px solid #ffe;
+}
+
+.table-bordered-2 th,
+.table-bordered-2 td {
+  border: 2px solid #ffe;
+}
+
+.table-bordered-2 thead th,
+.table-bordered-2 thead td {
+  border-bottom-width: 3px;
+}
+
+.table-bordered-10{
+    
+    width: 100%;
+    border:10px solid #fff;
+}
+.table-bordered-10 th,
+.table-bordered-10 td {
+  border: 10px solid #fff;
+}
+
+.table-bordered-10 thead th,
+.table-bordered-10 thead td {
+  border-bottom-width: 10px;
+}
+
+
+@media (max-width: 1200px){
+    .check-label{
+        font-size: 12px;
+    }
+
+    .logo-img1{
+        width:150px;
+        height:80px;
+
+    }
+    
+     .table-center{
+    text-align: center;
+/*    padding-left: 8%;
+    padding-right: 3%;*/
+}
+
+}
+
+@media (max-width: 768px){
+    .check-label{
+        font-size: 12px;
+    }
+
+    .logo-img1{
+        width:120px;
+        height:80px;
+
+    }    
+    .table-center{
+    text-align: center;
+/*    margin-left: 8%;*/
+/*    margin-right: 8%;*/
+}
+}
+@media (max-width:598px){
+    .table-center{
+    text-align: center;
+/*    padding-left: 4.5%;
+    padding-right: 4.5%;*/
+}
+.fullbtn{
+    width:100%;
+}
+}
+@media (max-width:534px){
+    .table-center{
+    text-align: center;
+    padding-left: .2%;
+    padding-right: .2%;
+}
+
+.center{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: red;
+}
+}
