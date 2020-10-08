@@ -18,7 +18,7 @@ class Main extends Component{
     }
 
     getTicketPaidFor(userId, token){
-        fetch(`/api/v1/tickets/paid/${userId}`,{
+        fetch(`/tickets/paid/${userId}`,{
             method:"GET",
             "headers":{
                 "Accept":"application/json",

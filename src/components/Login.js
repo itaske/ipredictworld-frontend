@@ -21,7 +21,7 @@ function Login (props){
     function login(){
         setLoading(true);
         let loginDetails ={email:email,password:password};
-       fetch("/api/v1/users/login ",{
+       fetch("/users/login ",{
            method:"POST",
            headers:new Headers(),
            body:JSON.stringify(loginDetails)

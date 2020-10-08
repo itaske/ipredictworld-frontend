@@ -17,7 +17,7 @@ class Scoreboard extends Component{
   componentDidMount(){
       let user = JSON.parse(localStorage.getItem("user"));
 
-      fetch(`/api/v1/scoreboards/${this.state.seasonYear}/${this.state.leagueType}`,{
+      fetch(`/scoreboards/${this.state.seasonYear}/${this.state.leagueType}`,{
           method:"GET",
           headers:{
               "Accept":"application/json",

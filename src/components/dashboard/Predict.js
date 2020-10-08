@@ -24,7 +24,7 @@ class Predict extends Component{
 
     componentDidMount(){
         let user = JSON.parse(localStorage.getItem("user"));
-        fetch(`/api/v1/fixtures/${user.id}/${this.state.seasonYear}/${this.state.week}/${this.state.leagueType}/${this.state.competitionType}`,{
+        fetch(`/fixtures/${user.id}/${this.state.seasonYear}/${this.state.week}/${this.state.leagueType}/${this.state.competitionType}`,{
             method:"GET",
             "headers":{
                 "Accept":"application/json",
@@ -89,7 +89,7 @@ class Predict extends Component{
 
        console.log(weekPrediction)
         let user = JSON.parse(localStorage.getItem("user"));
-        fetch(`/api/v1/weekpredictions/new/${user.id}`,{
+        fetch(`/weekpredictions/new/${user.id}`,{
             method:"POST",
             "headers":{
                 "Accept":"application/json",

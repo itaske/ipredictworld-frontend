@@ -34,7 +34,7 @@ class Register extends Component
 
    handleRegister(){
        this.setState({loading:true})
-       fetch("/api/v1/users", {
+       fetch("/users", {
            method:"post",
            headers:{
                "Accept":"application/json",

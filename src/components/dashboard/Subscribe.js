@@ -27,7 +27,7 @@ class Subscribe extends Component{
 
     getServices(league){
         let user = JSON.parse(localStorage.getItem("user"));
-        fetch(`/api/v1/services/leagueType/${league}`,{
+        fetch(`/services/leagueType/${league}`,{
             method:"GET",
             "headers":{
                 "Accept":"application/json",
@@ -36,7 +36,13 @@ class Subscribe extends Component{
 
             }
         }).then(res=>{
-            return res.json()
+            if (res.status === 200)
+                return res.json()
+            else if (res.status === 500){
+                return [];
+            }else if (res.status === 404){
+                return []
+            }
         }).then(data =>{
             this.setState({
                 services:data
@@ -48,7 +54,7 @@ class Subscribe extends Component{
         let currentTicket = this.state.ticket;
         currentTicket['service'] = service
         let user = JSON.parse(localStorage.getItem("user"));
-        fetch(`/api/v1/tickets/${user.id}`,{
+        fetch(`/tickets/${user.id}`,{
             method:"POST",
             "headers":{
                 "Accept":"application/json",

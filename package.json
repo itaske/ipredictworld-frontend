@@ -17,7 +17,7 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^1.2.1"
   },
-  "proxy":"https://ipredictworld-backend.herokuapp.com/",
+  "proxy":"https://ipredictworld-backend.herokuapp.com/api/v1/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
