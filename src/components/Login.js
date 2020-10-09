@@ -24,6 +24,7 @@ function Login (props){
        fetch("/users/login ",{
            method:"POST",
            headers:new Headers(),
+           mode:"cors",
            body:JSON.stringify(loginDetails)
            
        }).then(res=>{
