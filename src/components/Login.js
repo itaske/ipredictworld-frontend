@@ -21,7 +21,7 @@ function Login (props){
     function login(){
         setLoading(true);
         let loginDetails ={email:email,password:password};
-       fetch("/users/login ",{
+       fetch("http://ipredictworld-backend.herokuapp.com/api/v1/users/login ",{
            method:"POST",
            headers:new Headers(),
            mode:"cors",
